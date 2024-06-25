@@ -1,0 +1,31 @@
+### Get all Books
+GET http://localhost:1234/books
+
+### Get a Book by genre (By Query)
+GET http://localhost:1234/books?genre=Juvenil
+
+### Get a Book by id (By Param)
+GET http://localhost:1234/books/ef99f9ac-9641-4bb3-90ba-0b12da1cfe0f
+### Create a new Book
+POST http://localhost:1234/books
+Content-Type: application/json
+
+{
+  "author": "Editores Mexicanos Unidos",
+  "genre": ["Juvenil", "Autoayuda", "Desarrollo Personal"],
+  "image": "https://editoresmexicanosunidos.mx/wp-content/uploads/2022/02/9786071424242.png",
+  "language": ["Español"],
+  "summary": "Historias relatadas sobre el sentido de la soledad como un momento de reflexión y crecimiento personal.",
+  "title": "¡No estás solo!",
+  "year_published": 2022
+}
+
+### Update a Book by id
+PATCH http://localhost:1234/books/7e0842cd-c32b-49c9-91b7-1e7a94242569
+Content-Type: application/json
+
+{
+  "title": "Sangre de Campeón",
+  "summary": "Un niño llamado Felipe que enfrenta diversos desafíos y adversidades, incluyendo el bullying en la escuela y problemas familiares.",
+  "genre": ["Juvenil", "Motivacional", "Desarrollo Personal"]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7e0842cd-c32b-49c9-91b7-1e7a94242569",
+    "author": "Carlos Cuauhtémoc Sánchez",
+    "genre": ["Novela", "Romance", "Juvenil"],
+    "image": "https://m.media-amazon.com/images/I/71Zyp8oI-oL._SL1004_.jpg",
+    "language": ["Español"],
+    "summary": "Un joven se enamora de una chica misteriosa y aprende lecciones de amor y vida.",
+    "title": "La Fuerza de Sheccid",
+    "year_published": 1996
+  },
+  {
+    "id": "d6836a09-e720-497d-bcde-b5570a144710",
+    "author": "Miguel de Cervantes",
+    "genre": ["Novela", "Parodia", "Clásico"],
+    "image": "https://m.media-amazon.com/images/I/81QR1RdTtjL._SL1500_.jpg",
+    "language": ["Español"],
+    "summary": "Las aventuras y desventuras de un hidalgo manchego que se cree un caballero andante.",
+    "title": "Don Quijote de la Mancha",
+    "year_published": 1605
+  },
+  {
+    "id": "ed929e47-58fd-42f9-84f4-890b770b110c",
+    "author": "Carlos Ruiz Zafón",
+    "genre": ["Novela"],
+    "image": "https://m.media-amazon.com/images/I/919J8I9S6QL._SL1500_.jpg",
+    "language": ["Español"],
+    "summary": "Un joven descubre un libro en un misterioso cementerio de libros olvidados y desentraña un oscuro secreto.",
+    "title": "La sombra del viento",
+    "year_published": 2001
+  },
+  {
+    "id": "7a40fcf6-6b96-4370-9c45-a793a92dfb14",
+    "author": "Jorge Luis Borges",
+    "genre": ["Cuento", "Filosofía", "Metaficción"],
+    "image": "https://m.media-amazon.com/images/I/71oo7r184yL._SL1500_.jpg",
+    "language": ["Español", "Inglés"],
+    "summary": "Una colección de cuentos que exploran temas filosóficos, metafísicos y literarios.",
+    "title": "Ficciones",
+    "year_published": 1944
+  },
+  {
+    "id": "3bfcf426-92f2-4f28-954e-997c926ff791",
+    "author": "Isabel Allende",
+    "genre": ["Novela", "Realismo mágico", "Histórica"],
+    "image": "https://m.media-amazon.com/images/I/71AsDoqXZBL._SL1500_.jpg",
+    "language": ["Español"],
+    "summary": "Una saga familiar que entrelaza elementos de realismo mágico con la historia política y social de Chile.",
+    "title": "La casa de los espíritus",
+    "year_published": 1982
+  }
+]
